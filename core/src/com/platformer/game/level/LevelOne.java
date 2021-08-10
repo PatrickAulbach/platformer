@@ -1,4 +1,4 @@
-package com.missingking.game.level;
+package com.platformer.game.level;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.GL20;
@@ -13,12 +13,12 @@ import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.*;
 import com.badlogic.gdx.utils.viewport.ScreenViewport;
-import com.missingking.game.base.LevelBase;
-import com.missingking.game.characters.Player;
-import com.missingking.game.config.GameConfig;
-import com.missingking.game.debug.DebugCameraController;
-import com.missingking.game.physics.CollisionListener;
-import com.missingking.game.physics.WorldController;
+import com.platformer.game.base.LevelBase;
+import com.platformer.game.characters.Player;
+import com.platformer.game.config.GameConfig;
+import com.platformer.game.debug.DebugCameraController;
+import com.platformer.game.physics.CollisionListener;
+import com.platformer.game.physics.WorldController;
 
 public class LevelOne extends LevelBase {
 

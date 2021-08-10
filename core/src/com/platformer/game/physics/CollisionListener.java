@@ -1,7 +1,7 @@
-package com.missingking.game.physics;
+package com.platformer.game.physics;
 
 import com.badlogic.gdx.physics.box2d.*;
-import com.missingking.game.characters.Player;
+import com.platformer.game.characters.Player;
 
 public class CollisionListener implements ContactListener {
 

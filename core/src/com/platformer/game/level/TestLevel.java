@@ -1,4 +1,4 @@
-package com.missingking.game.level;
+package com.platformer.game.level;
 
 import com.badlogic.gdx.*;
 import com.badlogic.gdx.graphics.GL20;
@@ -10,7 +10,7 @@ import com.badlogic.gdx.maps.tiled.TmxMapLoader;
 import com.badlogic.gdx.maps.tiled.renderers.OrthogonalTiledMapRenderer;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
-import com.missingking.game.config.GameConfig;
+import com.platformer.game.config.GameConfig;
 
 public class TestLevel extends ScreenAdapter {
     private Texture img;

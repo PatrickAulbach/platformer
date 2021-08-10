@@ -1,4 +1,4 @@
-package com.missingking.game.debug;
+package com.platformer.game.debug;
 
 import com.badlogic.gdx.Application;
 import com.badlogic.gdx.Gdx;

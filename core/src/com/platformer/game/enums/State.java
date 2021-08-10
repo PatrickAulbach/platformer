@@ -1,4 +1,4 @@
-package com.missingking.game.enums;
+package com.platformer.game.enums;
 
 public enum State {
     MOVINGRIGHT,

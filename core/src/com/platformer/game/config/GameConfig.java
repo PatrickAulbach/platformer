@@ -1,8 +1,6 @@
-package com.missingking.game.config;
+package com.platformer.game.config;
 
 import com.badlogic.gdx.math.Vector2;
-
-import java.awt.*;
 
 public class GameConfig {
 

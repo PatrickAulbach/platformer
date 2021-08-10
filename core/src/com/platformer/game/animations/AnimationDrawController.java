@@ -1,16 +1,16 @@
-package com.missingking.game.animations;
+package com.platformer.game.animations;
 
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.missingking.game.characters.Player;
-import com.missingking.game.characters.PlayerAnimations;
-import com.missingking.game.config.GameConfig;
+import com.platformer.game.characters.Player;
+import com.platformer.game.characters.PlayerAnimations;
+import com.platformer.game.config.GameConfig;
 
 
 public class AnimationDrawController {
 
-    private SpriteBatch batch;
+    private final SpriteBatch batch;
 
-    private PlayerAnimations playerAnimations;
+    private final PlayerAnimations playerAnimations;
 
     public AnimationDrawController(SpriteBatch batch) {
         this.batch = batch;

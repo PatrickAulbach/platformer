@@ -1,4 +1,4 @@
-package com.missingking.game.characters;
+package com.platformer.game.characters;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Animation;

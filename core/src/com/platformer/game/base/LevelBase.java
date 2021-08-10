@@ -1,10 +1,11 @@
-package com.missingking.game.base;
+package com.platformer.game.base;
 
 import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.InputProcessor;
 import com.badlogic.gdx.Screen;
 
 public abstract class LevelBase implements ApplicationListener, InputProcessor, Screen {
+
     @Override
     public void create() {
 

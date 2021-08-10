@@ -1,19 +1,17 @@
-package com.missingking.game.characters;
+package com.platformer.game.characters;
 
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
-import com.badlogic.gdx.graphics.g2d.Animation;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
-import com.badlogic.gdx.graphics.g2d.TextureRegion;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.physics.box2d.Body;
 import com.badlogic.gdx.physics.box2d.BodyDef;
 import com.badlogic.gdx.physics.box2d.FixtureDef;
 import com.badlogic.gdx.physics.box2d.PolygonShape;
-import com.missingking.game.animations.AnimationDrawController;
-import com.missingking.game.config.GameConfig;
-import com.missingking.game.enums.State;
-import com.missingking.game.physics.WorldController;
+import com.platformer.game.animations.AnimationDrawController;
+import com.platformer.game.config.GameConfig;
+import com.platformer.game.enums.State;
+import com.platformer.game.physics.WorldController;
 
 public class Player {
 
@@ -51,6 +49,7 @@ public class Player {
     }
 
     private static void createBody(Vector2 position) {
+
         BodyDef bodyDef = new BodyDef();
         PolygonShape shape = new PolygonShape();
         FixtureDef fixtureDef = new FixtureDef();
